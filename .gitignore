@@ -1,0 +1,40 @@
+# Secrets & environment
+.env
+.env.local
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+
+# Node / React
+node_modules/
+.next/
+out/
+*.log
+
+# Database — never commit real data dumps
+database/backups/
+*.sql.gz
+*.dump
+
+# OS & Editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Excel / real PA data — never commit to GitHub
+scripts/data/
+*.xlsx
+*.xls
+*.csv

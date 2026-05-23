@@ -1,0 +1,4 @@
+-- Migration 001: Initial Schema
+-- Date: 2025-05
+-- Description: Full ECMS schema - 12 tables, 14 views, mock data
+-- To apply: mysql -u root -p ecms < database/schema.sql
