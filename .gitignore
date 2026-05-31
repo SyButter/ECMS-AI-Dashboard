@@ -38,3 +38,5 @@ scripts/data/
 *.xlsx
 *.xls
 *.csv
+"frontend/.vite/" 
+"frontend/node_modules/" 
